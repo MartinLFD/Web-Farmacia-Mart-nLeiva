@@ -5,45 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="estilos/index.css">
+    <link rel="stylesheet" href="estilos/iniciarsesion.css">
     
 </head>
+<body>
     <header>
-        <img src="imagenes/LogoEmpresa.png" alt="logo">
-        <h2>Farmacia Sante</h2>
         <nav>
-            <a href="index.html">Página Principal</a>
-            <a href="galeria.html">Galería</a>
+            <img class="imagenLogo" src="imagenes/LogoEmpresa.png" alt="logo">
+            <h1>Farmacia Sante</h1>
+            <div class="enlacesPrincipales">
+                <a href="index.html">Página Principal</a>
+                <a href="galeria.html">Galería</a>
+            </div>
         </nav>
-        <img src="imagenes/EmpresaImgaen.png" alt="ImagenPrincipal">
     </header>
-    <body>
+    <img class="imagenPrincipal" src="imagenes/EmpresaImagen.png" alt="ImagenPrincipal">
+    <main>
         <form action="" method="post" class="formularioInicioSesion">
-            <table>
+            <table class="estructura">
                 <tr>
-                    <th align="center"><h3>Iniciar Sesión</h3></th>
+                    <th class="espacioCampoFormTitulo" align="center"><h3>Iniciar Sesión</h3></th>
                 </tr>
                 <tr>
-                    <td class="espacioCampoForm" align="center">
+                    <td class="espacioCampoFormEmail" align="center">
                         <label for="email" ><strong>Email</strong></label>
                         <input type="text" name="email" id="textEmail" placeholder="xxxx@gmail.com"> 
                     </td>
                 </tr>
                 <tr>
-                    <td class="espacioCampoForm" align="center">
+                    <td class="espacioCampoFormClave" align="center">
                         <label for="password"><Strong>Password</Strong></label>
                         <input type="text" name="password" id="textPassword" placeholder="xxxxxxxx">
                     </td>
                 </tr>
                 <tr>
-                    <td class="botonLogin" align="center">
-                        <button >Login</button>
+                    <td  align="center">
+                        <button class="botonLogin">Login</button>
                     </td>
                 </tr>
             </table>
         </form>
-        
-    </body>
+    </main> 
     <footer>
         <p>Desarrollador: <strong>Martín Andrés Leiva Feddersen</strong></p>
     </footer>
+</body>
 </html>

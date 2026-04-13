@@ -1,0 +1,56 @@
+.formularioInicioSesion {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 50px auto;
+    border: 5px solid #96C930;
+
+}
+
+.estructura {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.espacioCampoFormTitulo {
+    background-color: #96C930;
+    
+}
+
+.espacioCampoFormEmail {
+    border-bottom: 5px solid #96C930;
+    padding-bottom: 15px;
+}
+
+.espacioCampoFormClave {
+    border-bottom: 5px solid #96C930;
+    padding-bottom: 15px;
+}
+
+.botonLogin {
+    background-color: #96C930;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.botonLogin:hover {
+    background-color: #008000;
+    padding: 15px 30px;
+}
+
+#textEmail {
+    border: 5px double #96C930;
+    padding: 15px;
+}
+
+#textPassword {
+    border: 5px double #96C930;
+    padding: 15px;
+}
